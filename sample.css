@@ -38,7 +38,8 @@ nav a {
     display: grid;
     grid-gap: 1.7em;
     grid-template-columns:repeat(auto-fit,minmax(350px,1fr));
-    grid-template-rows: repeat(4,auto-fit);
+    grid-auto-rows: max-content;
+    grid-auto-flow: dense;
 }
 
 .exhibition {
@@ -57,6 +58,7 @@ nav a {
 .exhibition img {
     max-width: 100%;
     min-height: 30%;
+    object-fit: cover;
 }
 
 .view-details {
@@ -92,4 +94,7 @@ nav a {
 
 .add-to-cart:hover {
     background-color: #555;
+}
+#horizontal{
+    grid-column:span 2;
 }
