@@ -35,9 +35,9 @@ nav a {
 }
 .exhibition-list {
     display: grid;
-    grid-gap: 5px;
-    grid-template-columns:repeat(auto-fit,100px);
-    grid-template-rows: repeat(2,100px);
+    grid-gap: 2rem;
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+    grid-template-rows: repeat(2,200px);
 }
 
 .exhibition {
