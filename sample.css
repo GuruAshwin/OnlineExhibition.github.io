@@ -34,9 +34,8 @@ nav a {
     font-size: 18px;
 }
 .exhibition-list {
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
+    display: grid;
+    grid-gap: 2em;
 }
 
 .exhibition {
