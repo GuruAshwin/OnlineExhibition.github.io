@@ -35,7 +35,8 @@ nav a {
 }
 .exhibition-list {
     display: grid;
-    grid-gap: 2em;
+    grid-gap: 5px;
+    grid-template-columns:repeat(auto-fit,1fr);
 }
 
 .exhibition {
